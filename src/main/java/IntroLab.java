@@ -40,6 +40,14 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    /**
+     * Method that calls printLabMessage to return a message in the expected format.
+     * @return Returns a message using printLabMessage
+     */
+    public static String hunancy1() {
+        return printLabMessage("Hi there", "Nancy Hu", true,
+                "Nice to meet you! :)");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,7 +67,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(hunancy1());
 
     }
 
