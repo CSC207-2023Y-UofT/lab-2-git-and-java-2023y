@@ -45,14 +45,21 @@ public class IntroLab {
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
+        return printLabMessage("Hey", "saivish1", true,
                 "Welcome to CSC207!");
     }
 
+    public static String nameLength(int how_many_Ls) {
+        String i = "L";
+        for (int j = 0; j < how_many_Ls; j++) {
+            i += "L";
+        }
+        return i;
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
+        System.out.println(nameLength(200));
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
